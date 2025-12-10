@@ -28,3 +28,9 @@ light = ""
 
 # : }}}
 
+#border_symbol = "│"
+
+[status]
+
+sep_left = { open = "", close = "\ue0b8" }
+sep_right = { open = "\ue0be", close = "" }

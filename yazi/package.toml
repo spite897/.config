@@ -1,10 +1,37 @@
-[plugin]
-deps = []
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "19dc890"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "llanosrocas/yaziline"
+rev = "e7042a8"
+hash = "9c2ab18ff5368056904e4ebb61b17571"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "88bd1c5"
+hash = "981acbe9b758b1af3a8154c932bb936d"
+
+[[plugin.deps]]
+use = "imsi32/yatline-githead"
+rev = "f8f969e"
+hash = "4d441b38138ce6492a4e10fa349fd65"
+
+[[plugin.deps]]
+use = "PepeRoConde/yatline-page-counter"
+rev = "12f7c94"
+hash = "92b0857ea41fc9f27069ad25d6351d9f"
+
+[[plugin.deps]]
+use = "ahkohd/eza-preview"
+rev = "7b00863"
+hash = "c538f3766b4b3bafbae3f0b7c3c3d763"
 
 [[flavor.deps]]
 use = "bennyyip/gruvbox-dark"
-rev = "e5e1aef"
-hash = "eb88137cf13a796225254344bf6def2c"
+rev = "2c61c90"
+hash = "d19603f80eba19ae01c42cb6a565283a"
 
 [[flavor.deps]]
 use = "kmlupreti/ayu-dark"
