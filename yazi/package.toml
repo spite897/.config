@@ -1,0 +1,32 @@
+[plugin]
+deps = []
+
+[[flavor.deps]]
+use = "bennyyip/gruvbox-dark"
+rev = "e5e1aef"
+hash = "eb88137cf13a796225254344bf6def2c"
+
+[[flavor.deps]]
+use = "kmlupreti/ayu-dark"
+rev = "648a178"
+hash = "1a8af82f6246942bd700316a16c4e14a"
+
+[[flavor.deps]]
+use = "ficd0/ashen:ashen"
+rev = "8add1b8"
+hash = "f9aed559dc6820dbc7253253be1bb6d2"
+
+[[flavor.deps]]
+use = "muratoffalex/kanagawa-lotus"
+rev = "4275a1a"
+hash = "e3c47ba547279aff64b6e46eefcf4479"
+
+[[flavor.deps]]
+use = "dangooddd/kanagawa"
+rev = "a0b1d9d"
+hash = "abfb0b2371259b2c8adfc7b617c3d7e5"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-frappe"
+rev = "ffe6e3a"
+hash = "90a866c034553e2d3bfdf536940733df"
