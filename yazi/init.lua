@@ -1,6 +1,14 @@
 -- owned by spite897
 -- require("full-border"):setup({ type = ui.Border.PLAIN }) -- Available values: ui.Border.PLAIN, ui.Border.ROUNDED -- require("yaziline"):setup()
 
+require("smart-enter"):setup {
+    open_multi = false,
+}
+
+th.git = {}
+-- th.git.modified_sign = "M"
+-- th.git.deleted_sign = "D"
+
 require("git"):setup()
 
 -- ======== EVERYTHING about yaziline  ========
