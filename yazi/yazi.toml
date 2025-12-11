@@ -97,6 +97,8 @@ suppress_preload = false
 
 [plugin]
 fetchers = [
+    { id   = "git",name = "*/",run  = "git"},
+    { id   = "git",name = "*",run  = "git"},
 	# Mimetype
 	{ id = "mime", name = "*", run = "mime", prio = "high" },
 ]
@@ -114,7 +116,8 @@ preloaders = [
 	{ mime = "application/ms-opentype", run = "font" },
 ]
 previewers = [
-	{ name = "*/", run = "eza-preview" },
+	#{ name = "*/", run = "eza-preview", sync = true },
+	{ name = "*/", run = "folder", sync = true },
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "application/{mbox,javascript,wine-extension-ini}", run = "code" },

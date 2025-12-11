@@ -28,6 +28,21 @@ use = "ahkohd/eza-preview"
 rev = "7b00863"
 hash = "c538f3766b4b3bafbae3f0b7c3c3d763"
 
+[[plugin.deps]]
+use = "h-hg/yamb"
+rev = "5f2e22e"
+hash = "699fe07e0d2d1b4af8dafb84168eeb04"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "19dc890"
+hash = "82376c3381ae915fd799d40f4dd4c6cd"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "19dc890"
+hash = "27ca02f49fd236b5cc7bf03c243859fe"
+
 [[flavor.deps]]
 use = "bennyyip/gruvbox-dark"
 rev = "2c61c90"

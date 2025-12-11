@@ -57,6 +57,8 @@ keymap = [
 	{ on = "R",         run = "rename --empty=stem --cursor=start",  desc = "Rename selected file(s)" },
 	{ on = ";",         run = "shell --interactive",         desc = "Run a shell command" },
 	{ on = ":",         run = "shell --block --interactive", desc = "Run a shell command (block until finishes)" },
+    #{ on = "D",         run  = "plugin diff",                desc = "Diff the selected with the hovered file"},
+
 
 	{ on =  "p",          run = ["paste", "unyank"],                desc = "Paste yanked files" },
 	{ on =  [ "P", "p" ], run = "paste --force --follow",           desc = "Paste yanked files (overwrite if the destination exists)" },
@@ -74,8 +76,8 @@ keymap = [
 	{ on = [ "M", "s", "n" ], run = "linemode none",        desc = "Linemode: none" },
 	{ on = [ "M", "s", "h" ], run = "hidden toggle",        desc = "Toggle the visibility of hidden files" },
 
-	{ on = [ "M", "f", "f" ], run = "filter --smart", desc = "Filter files" },
 	{ on = [ "M", "F" ], run = "search_do --via=fd", desc = "Flat view" },
+	#{ on = [ "M", "f", "f" ], run = "filter --smart", desc = "Filter files" },
 	{ on = [ "M", "f", "f"],         run = "search --via=fd",             desc = "Search files by name via fd" },
 	{ on = [ "M", "f", "c"],         run = "search --via=rg",             desc = "Search files by content via ripgrep" },
 
@@ -122,8 +124,6 @@ keymap = [
 	{ on = [ "g", "w" ],       run = "cd ~/Documents",   desc = "Go ~/Documents" },
 	{ on = [ "g", "z" ],       run = "plugin fzf",       desc = "Jump to a file/directory via fzf" },
 	{ on = [ "g", "Z" ],       run = "plugin zoxide",    desc = "Jump to a directory via zoxide" },
-
-	# Sorting
 
 	# Tabs
 	{ on = [ "t", "t" ],  run = "tab_create --current", desc = "Create a new tab with CWD" },
