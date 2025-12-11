@@ -116,8 +116,8 @@ preloaders = [
 	{ mime = "application/ms-opentype", run = "font" },
 ]
 previewers = [
-	#{ name = "*/", run = "eza-preview", sync = true },
-	{ name = "*/", run = "folder", sync = true },
+	{ name = "*/", run = "eza-preview", sync = true },
+	#{ name = "*/", run = "folder", sync = true },
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "application/{mbox,javascript,wine-extension-ini}", run = "code" },

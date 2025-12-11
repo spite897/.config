@@ -85,7 +85,7 @@ require("eza-preview"):setup({
   ignore_glob = {},
 
   -- Ignore files mentioned in '.gitignore'  (default: true)
-  git_ignore = true,
+  git_ignore = false,
 
   -- Show git status (default: false)
   git_status = false
