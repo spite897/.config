@@ -105,6 +105,10 @@ require("yatline"):setup({
     part_separator = { open = "│", close = "│" }, 
     show_background = true,
 
+    ---[[
+    display_header_line = false,
+    --]]
+
     header_line = {
 		left = {
             section_a = { {type = "line", custom = false, name = "tabs", params = {"left"}},},
@@ -133,6 +137,7 @@ require("yatline"):setup({
 			section_c = { 
                 {type = "coloreds", custom = false, name = "task_workload"},
                 {type = "coloreds", custom = false, name = "task_states"},
+                    {type = "coloreds", custom = false, name = "count", params = "true"},
 		    },
         }, 
 		right = { 
