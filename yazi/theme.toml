@@ -18,6 +18,9 @@
 dark  = "catppuccin-frappe"
 light = ""
 
+[app]
+overall = {}
+
 # INSTALLED FLAVORS :
 # - gruvbox-dark
 # - ayu-dark
@@ -30,7 +33,9 @@ light = ""
 
 #border_symbol = "│"
 
-[status]
+[indicator]
+padding = { open="█", close="█" }
 
+[status]
 sep_left = { open = "", close = "\ue0b8" }
 sep_right = { open = "\ue0be", close = "" }

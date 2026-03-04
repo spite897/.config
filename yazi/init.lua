@@ -36,7 +36,7 @@ end, 500, Status.RIGHT)
 --]]
 
 -- ======== EVERYTHING about yamb  ========
---[[
+---[[
 -- You can configure your bookmarks by lua language
 local bookmarks = {}
 
@@ -63,7 +63,7 @@ require("yamb"):setup {
 --]]
 
 -- ======== EVERYTHING about eza-preview  ========
----[[
+--[[
 require("eza-preview"):setup({
   -- Set the tree preview to be default (default: true)
   default_tree = false,
