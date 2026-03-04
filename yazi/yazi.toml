@@ -86,6 +86,7 @@ rules = [
 	{ url = "*/", use = [ "edit", "open", "reveal" ] },
 	# Text
 	{ mime = "text/*", use = [ "edit", "reveal" ] },
+	{ mime = "inode/empty", use = "edit" },
 	# Image
 	{ mime = "image/*", use = [ "open", "reveal" ] },
 	# Media
@@ -122,6 +123,7 @@ spotters = [
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "application/{mbox,javascript,wine-extension-ini}", run = "code" },
+	{ mime = "inode/empty", run = "code" },
 	# Image
 	{ mime = "image/{avif,hei?,jxl}", run = "magick" },
 	{ mime = "image/svg+xml", run = "svg" },
@@ -153,6 +155,7 @@ previewers = [
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "application/{mbox,javascript,wine-extension-ini}", run = "code" },
+	{ mime = "inode/empty", run = "code" },
 	# JSON
 	{ mime = "application/{json,ndjson}", run = "json" },
 	# Image
@@ -175,7 +178,7 @@ previewers = [
 	{ mime = "font/*", run = "font" },
 	{ mime = "application/ms-opentype", run = "font" },
 	# Empty file
-	{ mime = "inode/empty", run = "empty" },
+	#{ mime = "inode/empty", run = "empty" },
 	# Virtual file system
 	{ mime = "vfs/*", run = "vfs" },
 	# Error
